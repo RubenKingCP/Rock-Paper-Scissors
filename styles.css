@@ -1,0 +1,29 @@
+#start-wrapper {
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#question {
+    padding: 30px;
+    font-size: 50px;
+}
+
+#button-wrapper {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.buttonStart {
+    font-size: 30px;
+    border-style: none;
+}
+
+.buttonStart:hover {
+    color: red;
+}
