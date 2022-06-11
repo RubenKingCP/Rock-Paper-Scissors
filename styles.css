@@ -37,12 +37,14 @@
 }
 
 /* This is the Game Part */
+/* This is the Score part */
 
-#mainWrapper {
+#mainWrapper {  
     height: 100vh;
     background-color: brown;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -53,13 +55,20 @@
     display: flex;
 }
 
-#playerScore {
+.scoreBar {
     background-color: black;
     height: 100%;
     width: 50%;
     display: flex;
-    justify-content: left;
     align-items: center;
+}
+
+#playerScore {
+    justify-content: left;
+}
+
+#botScore {
+    justify-content: right;
 }
 
 .playerScoreBubble {
@@ -71,15 +80,6 @@
 
 }
 
-#botScore {
-    background-color: yellow;
-    height: 100%;
-    width: 50%;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-}
-
 .botScoreBubble {
     margin: 5%;
     border-radius: 100%;
@@ -88,3 +88,56 @@
     width: 100px;
 
 }
+
+/* This is the Choice View part */ 
+
+#choiceWrapper {
+    background-color: blueviolet;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.choiceImage {
+    background-color: red;
+    height: 80%;
+    width: 40%;
+    max-width: 400px;
+}
+
+/* This is the Player Choices Part */
+
+#playerChoiceList {
+    background-color: beige;
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.options {
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+}
+
+#player {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.choices {
+    height: 80%;
+    width: 30%;
+    background-color: yellow;    
+}
+
+#empty {
+    background-color: mediumslateblue;
+}
+

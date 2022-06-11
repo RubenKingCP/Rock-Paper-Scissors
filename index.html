@@ -20,22 +20,29 @@
     -->
     <div id="mainWrapper">
         <div id="score">
-            <div id="playerScore">
-                <div class="playerScoreBubble"></div>
-                <div class="playerScoreBubble"></div>
-                <div class="playerScoreBubble"></div>
+            <div id="playerScore"  class="scoreBar">
+                <div id="playerScore1" class="playerScoreBubble"></div>
+                <div id="playerScore2" class="playerScoreBubble"></div>
+                <div id="playerScore3" class="playerScoreBubble"></div>
             </div>
-            <div id="botScore">
-                <div class="botScoreBubble"></div>
-                <div class="botScoreBubble"></div>
-                <div class="botScoreBubble"></div>
+            <div id="botScore" class="scoreBar">
+                <div id="botScore1" class="botScoreBubble"></div>
+                <div id="botScore2" class="botScoreBubble"></div>
+                <div id="botScore3" class="botScoreBubble"></div>
             </div>
         </div>
         <div id="choiceWrapper">
-            <div id="playerChoice"></div>
-            <div id="botChoice"></div>
+            <div id="playerChoice" class="choiceImage"></div>
+            <div id="botChoice" class="choiceImage"></div>
         </div>
-        <div id="emptyBox"></div>
+        <div id="playerChoiceList">
+            <div id="player" class="options">
+                <div id="paper" class="choices"></div>
+                <div id="rock" class="choices"></div>
+                <div id="scissors" class="choices"></div>
+            </div>
+            <div id="empty" class="options"></div>
+        </div>
     </div>
 </body>
 </html>

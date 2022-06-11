@@ -8,7 +8,3 @@ noBtn.addEventListener('click', () => {
     noBtn.remove();
 } );
 
-
-
-
-
