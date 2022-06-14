@@ -141,16 +141,39 @@ body {
     align-items: center;
 }
 .choices {
+    border-style: none;
     height: 80%;
-    width: 30%;
-    background-color: yellow;    
+    width: 30%;   
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white; 
+}
+
+#paper {
+    background-image: url(Images/paper.png);
+}
+
+#rock {
+    background-image: url(Images/rock.png);
+}
+
+#scissors {
+    background-image: url(Images/scissors.png);
 }
 
 #empty {
     background-color: mediumslateblue;
 }
 
+.choices:hover {
+    height: 85%;
+    width: 35%;
+}
+
 #endScreen {
+    margin: 10%;
+    margin-top: 5%;
     z-index: 5;
     height: 80%;
     width: 80%;
@@ -162,6 +185,23 @@ body {
     align-items: center;
 }
 
+#endBtn {
+    background-color: black;
+    height: 30%;
+    width: 40%;
+    font-size: 45px;
+    border-style: none;
+}
+
+#endBtn:hover {
+    color: yellow;
+}
+
 .hidden {
     visibility: hidden;
+}
+
+.playerSelection {
+    border: 1px solid;
+    border-color: red;
 }
