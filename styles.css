@@ -82,20 +82,28 @@ body {
 
 .playerScoreBubble {
     margin: 5%;
+    border: 1px solid lightblue;
     border-radius: 100%;
-    background-color: aqua;
     height: 100px;
     width: 100px;
 
 }
 
+.playerWinBubble {
+    background-color: lightblue;
+}
+
 .botScoreBubble {
     margin: 5%;
+    border: 1px solid blue;
     border-radius: 100%;
-    background-color: green;
     height: 100px;
     width: 100px;
 
+}
+
+.botWinBubble {
+    background-color: blue;
 }
 
 /* This is the Choice View part */ 
